@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "navgo-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-16",
+  "observability": { "enabled": true },
+  "vars": {
+    "ALLOWED_ORIGIN": "http://localhost:5173"
+  }
+}
